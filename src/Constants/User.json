@@ -1,9 +1,25 @@
-{
-    "id": 1,
+[{
+    "id": "id",
     "name": "Phil",
-    "email": "email@example.com",
-    "location": "locationsville",
-    "profileIMG": "https://catImage.jpeg",
-    "birthday": "10/22"
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
+  },
+  {
+    "id": "id",
+    "name": "George",
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
+  },
+  {
+    "id": "id",
+    "name": "Sam",
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
   }
-  
+]
