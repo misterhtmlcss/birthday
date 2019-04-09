@@ -1,12 +1,8 @@
 import React from 'react';
 import './App.css';
-import MainPage from "./Views/MainPage/MainPage"
 
 const App = () => (
-  <div>
-    <MainPage />
-  </div>
-
+  <h1>Hello World!</h1>
 );
 
 
