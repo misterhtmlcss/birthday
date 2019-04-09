@@ -1,0 +1,25 @@
+[{
+    "id": "id",
+    "name": "Phil",
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
+  },
+  {
+    "id": "id",
+    "name": "George",
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
+  },
+  {
+    "id": "id",
+    "name": "Sam",
+    "email": "email",
+    "location": "location",
+    "profileIMG": "",
+    "birthday": "birthday"
+  }
+]

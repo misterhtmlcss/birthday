@@ -1,0 +1,20 @@
+[{
+    "id": "id",
+    "name": "Roger'sCafe",
+    "description": "description",
+    "img": "",
+    "location": "",
+    "city": "",
+    "multipleLocations": true
+},
+{
+    "id": "id",
+    "name": "MakeupLand",
+    "description": "description",
+    "img": "",
+    "location": "",
+    "city": "",
+    "multipleLocations": false
+}
+
+]
