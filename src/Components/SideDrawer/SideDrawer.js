@@ -7,8 +7,8 @@ const sideDrawer = props => (
         <nav className={props.sideDrawerOpen ? 'side-drawer-open' : "side-drawer-closed"}>
             <span className="close" onClick={props.toggle}>x</span>
             <ul>
-                <li> <a href="/">Products</a></li> 
-                <li> <a href="/">Users</a></li>
+                <li> <a href="/">About</a></li> 
+                <li> <a href="/">Contact</a></li>
             </ul>
 
         </nav>

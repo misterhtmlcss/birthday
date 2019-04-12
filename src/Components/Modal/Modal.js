@@ -5,12 +5,10 @@ import "./style.css"
 
 const Modal = () => {
     return(
-        <div style={{height: '100%' }}>
+        <div>
         <Hamburger />
         </div>
     )
 }
-
-
 
 export default Modal 
