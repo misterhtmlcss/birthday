@@ -1,7 +1,8 @@
+
 [{
     "id": "id",
-    "name": "Roger'sCafe",
-    "description": "description",
+    "name": "Dylans Coffee ",
+    "description": "One small cappuccino on your birthday!",
     "img": "",
     "location": "",
     "city": "",
@@ -9,8 +10,8 @@
 },
 {
     "id": "id",
-    "name": "MakeupLand",
-    "description": "description",
+    "name": "Lidos Pizza",
+    "description": "Buy one pizza get one for free! ",
     "img": "",
     "location": "",
     "city": "",
