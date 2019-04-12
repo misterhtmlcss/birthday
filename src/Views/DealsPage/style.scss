@@ -2,9 +2,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: rgb(60, 60, 60)
+  color: rgb(60, 60, 60);
 }
+
 .deals {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
