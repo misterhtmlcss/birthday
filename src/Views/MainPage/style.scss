@@ -1,12 +1,30 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 5%;
+  flex-direction: column;
+  *{
+    margin: 0.6rem auto;
+  }
+ color: rgb(34, 34, 34);
+}
+
 html {
-    background-color: #FFE6E6;
+  background-color: rgb(255, 255, 255);
 }
 
-.logo{
-    width:180px
+.logo {
+  width: 150px;
+  color: rgb(60, 60, 60);
 }
+
 .subtitle{
-    text-align: justify;
+max-width: 756px;
+text-align: center;
 }
 
-
+.logo-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
