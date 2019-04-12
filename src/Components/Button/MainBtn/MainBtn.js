@@ -1,6 +1,6 @@
 import React from 'react';
 
-const btnMain = (props) => {
+const MainBtn = (props) => {
   return(
     <div>
     <button onClick={() => props.changePage("dealsPage")}>{props.name}</button>
@@ -8,4 +8,4 @@ const btnMain = (props) => {
   )
   };
 
-export default btnMain;
+export default MainBtn;
