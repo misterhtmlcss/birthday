@@ -1,7 +1,13 @@
-html {
-    height: 100%
+.modal-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+*{
+  margin: 0rem auto;
+}
 }
 
-body {
-    height: 100%
+.email{
+    display: flex;
+    flex-direction: horizontal;
 }

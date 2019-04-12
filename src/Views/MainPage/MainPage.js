@@ -18,7 +18,7 @@ const MainPage = (props) => {
             </div>
             <Subtitle class="subtitle" name={text} />
             <Inputs class="inputs" name=" Location" />
-            <MainBtn changePage={props.changePage} name="Let's go!" />
+            <MainBtn action = "dealsPage" changePage={props.changePage} name="Let's go!" />
         </div>
     )
 

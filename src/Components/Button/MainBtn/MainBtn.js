@@ -1,11 +1,25 @@
 import React from 'react';
 
-const MainBtn = (props) => {
+class MainBtn extends React.Component {
+  constructor(props){
+    super(props)
+  }
+
+button = () =>{
+  if (this.props.action === "dealsPage"){
+    return <button onClick={() => this.props.changePage("dealsPage")}>{this.props.name}</button>
+  }
+  return <button>{this.props.name}</button>
+}
+ render(){
   return(
     <div>
-    <button onClick={() => props.changePage("dealsPage")}>{props.name}</button>
+    {this.button()}
     </div>
   )
+
+ }
+
   };
 
 export default MainBtn;
