@@ -3,7 +3,7 @@
     "id": "id",
     "name": "Dylans Coffee ",
     "description": "One small cappuccino on your birthday!",
-    "img": "",
+    "img": "../../Assets/pizza.jpg",
     "location": "",
     "city": "",
     "multipleLocations": true
@@ -12,7 +12,7 @@
     "id": "id",
     "name": "Lidos Pizza",
     "description": "Buy one pizza get one for free! ",
-    "img": "",
+    "img": "../../Assets/pizza.jpg",
     "location": "",
     "city": "",
     "multipleLocations": false
