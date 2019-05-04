@@ -1,7 +1,7 @@
 import React from "react"
 import Title from "../../Components/Titles/Titles"
 import Modal from "../../Components/Modal/Modal"
-import Classified from "../../Components/Classified/Classified"
+import Classifieds from "../../Components/Classifieds/Classifieds"
 
 import "./style.css"
 
@@ -11,7 +11,7 @@ const DealsPage = () => {
             <Modal />
             <div className="deals">
                 <Title name="Deals" /><br/>
-                <Classified />
+                <Classifieds />
             </div>
         </div>
     )

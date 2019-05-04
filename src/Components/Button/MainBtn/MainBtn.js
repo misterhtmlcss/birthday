@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style.css"
 
 class MainBtn extends React.Component {
   constructor(props){
@@ -7,13 +8,13 @@ class MainBtn extends React.Component {
 
 button = () =>{
   if (this.props.action === "dealsPage"){
-    return <button onClick={() => this.props.changePage("dealsPage")}>{this.props.name}</button>
+    return <button className="button" onClick={() => this.props.changePage("dealsPage")}>{this.props.name}</button>
   }
-  return <button>{this.props.name}</button>
+  return <button className="button">{this.props.name}</button>
 }
  render(){
   return(
-    <div>
+    <div >
     {this.button()}
     </div>
   )
