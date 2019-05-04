@@ -1,8 +1,8 @@
 import React from "react"
 import "./style.css"
-import DrawerTogggleButton from "../../DrawerToggleButton/DrawerToggleButton"
-import SideDrawer from '../../SideDrawer/SideDrawer'
-// import BackDrop from "../../BackDrop/BackDrop"
+import DrawerTogggleButton from "../../Components/DrawerToggleButton/DrawerToggleButton"
+import SideDrawer from '../../Components/SideDrawer/SideDrawer'
+
 
 class Hamburger extends React.Component {
   state = {

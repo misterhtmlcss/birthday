@@ -1,11 +1,16 @@
 import React from "react"
 import "./style.css"
 
-const Classified = () =>{
+const Classified = (props) =>{
+ console.log("TCL: Classified -> props", props)
+ 
     return(
         <div className="classified-container">
-            <img src="" alt="co logo"/>
-            <p>This is a description of the company and the deal</p>
+            <p>{props.name}</p>
+            <img src={props.image} alt="co logo"/>
+            <p>{props.description}</p>
+            <p>Address:{props.location}</p>
+            <p>City: {props.city}</p>
         </div>
 
 
@@ -15,3 +20,4 @@ const Classified = () =>{
 }
 
 export default Classified
+

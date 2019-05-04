@@ -1,12 +1,11 @@
-import React from 'react';
-import DayPicker from "react-day-picker";
+import React, { Fragment } from 'react';
+import DayPickerInput from "react-day-picker/DayPickerInput";
 import "react-day-picker/lib/style.css";
 
 const datePicker = () => (
-  <>
-    <h1>DatePicker</h1>
-    <DayPicker selectedDays={new Date()} />
-  </>
+  <Fragment>
+  <DayPickerInput placeholder="DD/MM/YYYY" format="DD/MM/YYYY" />
+  </Fragment>
 );
 
 export default datePicker;
