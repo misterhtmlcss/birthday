@@ -1,14 +1,11 @@
 import React from "react"
-import "./style.css"
+import "./style.scss"
 
-const Inputs = (props) => {
-return(
-    <div >
-    <input placeholder={props.name}></input>
-    </div>
+const Inputs = ({name}) => (
+  <div className="email">
+    <label htmlFor=""></label>
+    <input type="email"  placeholder={name} autoFocus></input>
+  </div>
 )
 
-
-}
-
-export default Inputs 
+export default Inputs

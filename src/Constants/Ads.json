@@ -1,21 +1,21 @@
 
-[{
+[
+  {
     "id": "id",
     "name": "Dylans Coffee ",
     "description": "One small cappuccino on your birthday!",
-    "img": "../../Assets/pizza.jpg",
-    "location": "",
-    "city": "",
+    "img": "coffee.png",
+    "location": "1010 Kensington Rd, NW",
+    "city": "Calgary",
     "multipleLocations": true
-},
-{
-    "id": "id",
-    "name": "Lidos Pizza",
-    "description": "Buy one pizza get one for free! ",
-    "img": "../../Assets/pizza.jpg",
-    "location": "",
-    "city": "",
-    "multipleLocations": false
-}
-
+  },
+  {
+      "id": "id",
+      "name": "Lidos Pizza",
+      "description": "Buy one pizza get one for free! ",
+      "img": "pizza.jpg",
+      "location": "2145 Kensington Rd, NW",
+      "city": "Calgary",
+      "multipleLocations": false
+  }
 ]

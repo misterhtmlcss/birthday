@@ -1,13 +1,15 @@
 .deals-container {
   display: flex;
-  flex-direction: column;
   width: 100%;
   color: rgb(60, 60, 60);
+  width: 75%;
 }
 
 .deals {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }

@@ -1,12 +1,14 @@
-
-
 input{
-    width: 300px;
+    width: 200px;
     height: 40px;
     box-sizing: border-box;
     border: 1px solid lightgray;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 2px grey;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 2em;
+}
+
+.main-container > .email {
+  margin: 10px 0;
 }

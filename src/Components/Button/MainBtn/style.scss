@@ -1,11 +1,18 @@
-.button{
-    width: 100px;
-    height: 40px;
-    box-sizing: border-box;
-    border: 1px solid lightgray;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px 2px grey;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: white
+.button {
+  width: 125px;
+  font-size: 2em;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px grey;
+  background-color: lightblue;
+  color: rgba(white,1);
+  text-shadow: 1px 1px lightblue
+}
+
+.btn > .button {
+  width: 140px;
+}
+
+.btn > .button:hover {
+  box-shadow: 2px 2px 2px 2px blue;
 }

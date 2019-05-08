@@ -1,14 +1,10 @@
 import React from "react"
-import "./style.css"
+import "./style.scss"
 
-const Subtitle = (props) => {
-    return (
-        <div class="subtitle">
-            {props.name}
-            <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet"></link>
-        </div>
-        
-    )
+const Subtitle = (props) => (
+  <div className="subtitle">
+      {props.name}
+  </div>
+)
 
-}
 export default Subtitle

@@ -1,19 +1,18 @@
 import React from "react"
-import Title from "../../Components/Titles/Titles"
+import Banner from "../../Components/Banner/Banner"
 import Modal from "../../Components/Modal/Modal"
 import Classifieds from "../../Components/Classifieds/Classifieds"
 
-import "./style.css"
+import "./style.scss"
 
-const DealsPage = () => {
-    return (
-        <div className="deals-container">
-            <Modal />
-            <div className="deals">
-                <Title name="Deals" /><br/>
-                <Classifieds />
-            </div>
-        </div>
-    )
-}
+const DealsPage = () => (
+  <>
+      <Banner/>
+      <Modal />
+      <div className="deals">
+          <Classifieds />
+      </div>
+
+  </>
+)
 export default DealsPage
