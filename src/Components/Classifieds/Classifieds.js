@@ -1,10 +1,10 @@
-import React from "react"
-import ads from "../../Constants/ads.json"
-import Classified from "../../Components/Classified/Classified"
-
+import React from "react";
+// import ads from "../../Constants/ads.json";
+import Ads from "../../Constants/Ads.json";
+import Classified from "../../Components/Classified/Classified";
 
 const Classifieds = () => {
-  const classified = ads.map( (ad, i) => (
+  const classified = Ads.map((ad, i) => (
     <Classified
       key={i}
       name={ad.name}
@@ -13,11 +13,8 @@ const Classifieds = () => {
       location={ad.location}
       city={ad.city}
     />
-    )
-  )
-  return (
-    <>{classified}</>
-  )
-}
+  ));
+  return <>{classified}</>;
+};
 
-export default Classifieds
+export default Classifieds;

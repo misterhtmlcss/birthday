@@ -1,4 +1,3 @@
-
 [
   {
     "id": "id",
@@ -10,12 +9,12 @@
     "multipleLocations": true
   },
   {
-      "id": "id",
-      "name": "Lidos Pizza",
-      "description": "Buy one pizza get one for free! ",
-      "img": "pizza.jpg",
-      "location": "2145 Kensington Rd, NW",
-      "city": "Calgary",
-      "multipleLocations": false
+    "id": "id",
+    "name": "Lidos Pizza",
+    "description": "Buy one pizza get one for free! ",
+    "img": "pizza.jpg",
+    "location": "2145 Kensington Rd, NW",
+    "city": "Calgary",
+    "multipleLocations": false
   }
 ]
